@@ -8,7 +8,22 @@
   </head>
   <body>
     <h1>Monstr Inc.</h1>
-    <div id='create-monster'></div>
+    <div id='create-monster'>
+      <form id='new-monster'>
+
+        <label for="monster-name">Monster Name</label>
+        <input type="text" id="monster-name" name="name">
+
+        <label for="monster-age">Age</label>
+        <input type="number" id="monster-age" name="age">
+
+        <label for="monster-description">Description</label>
+        <input type="text" id="monster-description" name="description">
+
+        <input type="submit" id="create-monster-button" value="Create Monster">
+
+      </form>
+    </div>
     <div id='monster-container'></div>
     <button id="back"><=</button>
     <button id="forward">=></button>
